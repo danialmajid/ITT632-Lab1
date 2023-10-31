@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('l.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container styles for both desktop and mobile views */
+.container {
+    max-width: 100%;
+    margin: 0;
+    background-color: #b76451;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border:1px solid white;
+
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    color: #ffffff;
+    margin: 0;
+    font-weight: bold;
+}
+
+p {
+    color: #fff9f9;
+    font-weight: bold;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* Styles specific to mobile view */
+@media screen and (max-width: 768px) {
+    .container {
+        background-color: #b76451; /* Adjust the background color for mobile view */
+    }
+
+    h1 {
+        font-size: 24px; /* Adjust the font size for mobile view */
+    }
+
+    p {
+        font-size: 16px; /* Adjust the font size for mobile view */
+    }
+
+    h2 {
+        font-size: 18px; /* Adjust the font size for mobile view */
+    }
+}
+
+table, td {
+    border:1px solid white;
+    color: white;
+  } 
+
+  td{
+    text-align: left;
+  }
